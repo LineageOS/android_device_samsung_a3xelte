@@ -18,3 +18,8 @@ LOCAL_PATH := device/samsung/a3xelte
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_PATH)/lineage_a3xelte.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_a3xelte-user \
+    lineage_a3xelte-userdebug \
+    lineage_a3xelte-eng
