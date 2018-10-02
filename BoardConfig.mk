@@ -55,6 +55,9 @@ TARGET_LD_SHIM_LIBS += \
     /system/lib/libstagefright.so|/vendor/lib/libstagefright_shim.so \
     /system/lib/libexynoscamera.so|/vendor/lib/libexynoscamera_shim.so
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+
 # Legacy BLOB Support
 TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
     /system/vendor/bin/hw/rild=27
