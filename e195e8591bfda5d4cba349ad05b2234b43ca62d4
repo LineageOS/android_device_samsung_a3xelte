@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4bc2cd43_95531943",
+        "filename": "configs/audio/mixer_paths.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 2339,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2019-08-27T14:37:58Z",
+      "side": 1,
+      "message": "remove one of them?",
+      "range": {
+        "startLine": 2339,
+        "startChar": 2,
+        "endLine": 2339,
+        "endChar": 39
+      },
+      "revId": "e195e8591bfda5d4cba349ad05b2234b43ca62d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
