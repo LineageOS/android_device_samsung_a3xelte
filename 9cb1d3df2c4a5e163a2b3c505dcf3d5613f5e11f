@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dc639f00_e08c8a3c",
+        "filename": "init/init_a3xelte.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 20581
+      },
+      "writtenOn": "2020-02-21T16:01:52Z",
+      "side": 1,
+      "message": "use property_override_dual instead",
+      "revId": "9cb1d3df2c4a5e163a2b3c505dcf3d5613f5e11f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
