@@ -23,7 +23,7 @@
 #define BTM_WBS_INCLUDED        TRUE    /* Enable WBS */
 #define BTIF_HF_WBS_PREFERRED   FALSE   /* Don't use WBS by default */
 
-#define BLE_VND_INCLUDED        TRUE
+#define BLE_VND_INCLUDED        FALSE
 
 /* Disable the eSCO commands */
 #define BTM_SCO_ENHANCED_SYNC_ENABLED FALSE
