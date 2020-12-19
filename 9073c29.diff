@@ -1,0 +1,24 @@
+From 9073c293f09e14f0ee352f19cb1aeefaadbe5743 Mon Sep 17 00:00:00 2001
+From: Bruno Martins <bgcngm@gmail.com>
+Date: Thu, 10 Dec 2020 11:32:08 +0000
+Subject: [PATCH] a3xelte: Move graphics composer to hwbinder
+
+The passthrough impl is dead as of Android 11 QPR1.
+
+Change-Id: Ic10e93398363f03551afe39715cb664bbbce1683
+---
+
+diff --git a/manifest.xml b/manifest.xml
+index 5b1e034..3f3f048 100644
+--- a/manifest.xml
++++ b/manifest.xml
+@@ -79,7 +79,7 @@
+     </hal>
+     <hal format="hidl">
+         <name>android.hardware.graphics.composer</name>
+-        <transport arch="32">passthrough</transport>
++        <transport>hwbinder</transport>
+         <version>2.1</version>
+         <interface>
+             <name>IComposer</name>
+ 
