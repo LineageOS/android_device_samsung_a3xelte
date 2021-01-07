@@ -1,7 +1,7 @@
-# all unpinned blobs come from SM-A310F stock (A310FXXU5CSI1)
+# all unpinned blobs come from SM-A310F stock (A310FXXS5CTK2)
 
-# Bluetooth firmware from raspbian disk image
-vendor/firmware/bcm43430A1_V0062.hcd|c721f1d6a532d56614bd711290e18d4d1edc1843
+# Bluetooth firmware
+vendor/firmware/bcm43438A1_V0067.0280.hcd
 
 # Camera
 lib/hw/camera.universal7580.so:lib/hw/camera.vendor.universal7580.so
